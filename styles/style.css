@@ -64,8 +64,8 @@ header{
 
 .nav-links-left a{
     text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: bold;
+    font-size: 1.2rem;
+    font-weight: 500;
     color: black;
 }
 
@@ -95,7 +95,7 @@ header{
 .nav-links-right a{
     text-decoration: none;
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 500;
     color: var(--subcription);
 }
 
@@ -139,7 +139,7 @@ header{
 .nav-links a{
     text-decoration: none;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 500;
     color: black;
 }
 
