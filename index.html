@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div>
-                <ul>
+        <nav class="primary">
+            <div class="nav-links-container">
+                <div class="nav-logo-container">
+                    <svg role="img" aria-label="Logo Ableton" class="main-nav__logo__image" fill="currentColor" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 45 21"><path d="M0 0h3v21H0zM6 0h3v21H6zM12 0h3v21h-3zM18 0h3v21h-3zM24 18h21v3H24zM24 12h21v3H24zM24 6h21v3H24zM24 0h21v3H24z"></path></svg>
+                </div>
+                <ul class="nav-links-left">
                     <li><a href="">Live</a></li>
                     <li><a href="">Push</a></li>
                     <li><a href="">Link</a></li>
@@ -19,13 +23,20 @@
                     <li><a href="">More+</a></li>
                 </ul>
             </div>
-            <div>
-                <ul>
+            <div class="nav-links-right-container">
+                <ul class="nav-links-right">
                     <li><a href="">Try Live For free</a></li>
-                    <button>Account</button>
-                    <button>Log-out</button>
+                    <button class="button" id="actBtn">Account</button>
+                    <button class="button" id="logInBtn">Log-out</button>
                 </ul>
             </div>
+        </nav>
+        <div class="nav-divider"></div>
+        <nav class= "secondary">
+            <ul class="nav-links">
+                <li><a href="">About</a></li>
+                <li><a href="">Jobs</a></li>
+            </ul>
         </nav>
     </header>
 </body>

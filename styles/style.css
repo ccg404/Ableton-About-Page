@@ -1,0 +1,148 @@
+*{
+    --color1: #fbffa7;
+    --active-link: #ff764d;
+    --color3: #b1c5ff;
+    --color4: #d5b3ff;
+    --color5: #b6ffc0;
+    --subcription: #0000ff;
+    --default-font: futura-pt, Avenir, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body{
+    font-family: var(--default-font);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    color: black;
+}
+
+.primary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-links-container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+}
+
+.nav-links-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav-links-left a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.primary .nav-links-left li:last-child a{
+    color: var(--active-link);
+}
+
+
+.nav-links-right-container{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav-links-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav-links-right a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--subcription);
+}
+
+.button{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-divider{
+    width: 100%;
+    height: 2px;
+    background-color: rgba(241, 233, 233, 0.76);
+}
+
+.secondary{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    font-family:(--default-font);
+}
+
+.nav-links{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: row;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: black;
+}
+
+.secondary .nav-links li:first-child a{
+    color: var(--active-link);
+}
